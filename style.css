@@ -1,0 +1,81 @@
+.service-box-bg {
+    background-image: url(img-1.webp);
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px 5px 0 0 ;
+}
+
+.service-box-bg-2 {
+    background-image: url(img-2.jpg);
+}
+
+.service-box-bg-3 {
+    background-image: url(img-3.jpg);
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title h2 {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.section-title h2 span {
+    color: rgb(0, 235, 227);
+}
+
+.section-title p {
+    color: #555;
+}
+
+.service-box-bg i {
+    height: 100px;
+    width: 100px;
+    background-color: #26395a;
+    display: block;
+    color: #fff;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -32px;
+    left: 50%;
+    margin-left: -50px;
+    transition: .3s;
+}
+
+.service-box-bg i::before {
+    font-size: 40px;
+    line-height: 90px;
+    margin: 0;
+}
+
+.single-service-box {
+    border: 1px solid #ebebeb;
+    border-radius: 5px 5px 0 0;
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.single-service-box h2 {
+    margin: 0;
+    text-transform: uppercase;
+    padding: 20px;
+    padding-top: 50px;
+    transition: .3s;
+}
+
+.single-service-box:hover .service-box-bg i {
+    background-color: #1cc9ce;
+    border-color: #26395a;
+}
+
+.single-service-box:hover h2 {
+    background-color: #26395a;
+    color: #fff;
+}
